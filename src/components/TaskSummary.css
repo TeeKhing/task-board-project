@@ -1,0 +1,41 @@
+.task-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.2rem;
+}
+
+.task-summary > div {
+  display: grid;
+  gap: 0.4rem;
+  padding: 0.9rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.summary-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.task-summary strong {
+  color: var(--ink);
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+@media (max-width: 500px) {
+  .task-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .task-summary > div {
+    padding: 0.8rem 0.75rem;
+  }
+}
