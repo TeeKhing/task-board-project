@@ -1,9 +1,18 @@
-# Task Board 1.0
+# Task Board 1.0 1.0
 
+A React task board for organizing tasks, tracking progress, and keeping task notes.
 Task Board is a React application for managing tasks across a simple workflow. Create tasks, add detailed notes and subtasks, set due dates and priorities, and track progress from To Do to Done. Tasks can be used locally as a guest or associated with an account through the Node.js and MongoDB API.
 
 ## Features
 
+- Organize tasks by To Do, Doing, and Done.
+- Set priorities and due dates.
+- Drag tasks to reorder or change status.
+- Add notes and subtasks to tasks.
+- View the task pipeline and notes.
+- Sign in, create an account, or continue as a guest.
+
+## Run locally
 ### Workflow summary
 
 - Organize tasks in three vertically stacked states: **To Do**, **Doing**, and **Done**.
