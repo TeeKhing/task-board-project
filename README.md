@@ -1,14 +1,15 @@
-# Task Board
+# Task Board 1.0
 
-A React task board for organizing work by status, setting priorities and due dates, and tracking progress.
+A React task board for organizing tasks, tracking progress, and keeping task notes.
 
 ## Features
 
-- Create tasks with a description, priority, and due date.
-- Move tasks between To Do, Doing, and Done.
-- Search task titles and descriptions, or filter by priority.
-- View total, in-progress, and completed task counts.
-- Use local sample tasks without a backend, or connect through the included API.
+- Organize tasks by To Do, Doing, and Done.
+- Set priorities and due dates.
+- Drag tasks to reorder or change status.
+- Add notes and subtasks to tasks.
+- View the task pipeline and notes.
+- Sign in, create an account, or continue as a guest.
 
 ## Run locally
 
@@ -17,5 +18,8 @@ npm install
 npm run dev
 ```
 
-Run `npm run build` to create a production build.
-"# task-board-project" 
+To create a production build:
+
+```sh
+npm run build
+```

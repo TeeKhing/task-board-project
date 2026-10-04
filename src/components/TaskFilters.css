@@ -1,0 +1,50 @@
+.task-filters {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1.2rem;
+}
+
+.task-filters label {
+  display: grid;
+  gap: 0.5rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.search-field,
+.priority-filter {
+  width: 100%;
+}
+
+.task-filters input,
+.task-filters select {
+  width: 100%;
+  min-height: 3rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.8rem 0.9rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--ink);
+  font: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-filters input::placeholder {
+  color: var(--ink-light);
+}
+
+.task-filters input:focus,
+.task-filters select:focus {
+  outline: none;
+  border-color: rgba(26, 26, 26, 0.4);
+  box-shadow: 0 0 0 4px rgba(196, 85, 58, 0.08);
+}
+
+@media (max-width: 600px) {
+  .task-filters {
+    gap: 0.8rem;
+  }
+}
